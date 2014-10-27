@@ -7,14 +7,13 @@ $navbar-default-bg: 			#c0392b;
 $navbar-default-link-color: 	white;
 $navbar-default-border: 		#c0392b;
 $jumbotron-bg: 					#c0392b;
-$jumbotron-heading-color: 		white;
 $jumbotron-color: 				white;
 $brand-primary: 				#2c3e50;
 $brand-success: 				white;
 $btn-success-color: 			#2c3e50;
 $brand-info:					#27ae60;
 $navbar-height:                 80px;
-$link-color: 					white;
+$link-color: 					#27ae60;
 
 @import 'bootstrap';
 
@@ -29,13 +28,47 @@ $link-color: 					white;
 #section-1 {
 	background-color: #c0392b;
 	width: 100%;
+	color: white;
 }
 
 #section-2 {
 	background-color: #2c3e50;
 	width: 100%;
+	color: white;
+}
+
+#well-1 {
+	background-color: #c0392b;
+	border: 0px;
 }
 
 #jumbo-blue {
 	background-color: #2c3e50;
+	color: white;
+}
+
+#section-3 {
+	background-color: white;
+	width: 100%;
+	color: #2c3e50;
+}
+
+#jumbo-white {
+	background-color: white;
+	color: #2c3e50;
+}
+
+#jumbotron .h1 {
+	color: #2c3e50;
+}
+
+#section-4 {
+	background-color: #bdc3c7;
+	width: 100%;
+	color: #2c3e50;
+}
+
+#jumbo-gray {
+	background-color: #bdc3c7;
+	color: #2c3e50;
 }

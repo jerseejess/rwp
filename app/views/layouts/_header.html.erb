@@ -15,9 +15,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "HOME", root_path %>
-        <li><%= link_to "CONTACT", contact_path %>
+        <li><%= link_to "ABOUT", root_path(:anchor => 'about') %>
+        <li><%= link_to "SUBMIT", root_path(:anchor => 'submit') %>
+        <li><%= link_to "CONTACT", root_path(:anchor => 'contact') %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>
+
